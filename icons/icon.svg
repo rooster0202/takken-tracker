@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">宅建士 問題チェック</title>
+  <rect width="512" height="512" rx="92" fill="#f4f7ef"/>
+  <path d="M96 245 256 108l160 137v180a22 22 0 0 1-22 22H112a22 22 0 0 1-22-22V245Z" fill="#1f6f5b"/>
+  <path d="M141 241 256 143l115 98v169H141V241Z" fill="#fbfcf8"/>
+  <path d="M207 410V285h112v125" fill="#dff3ea"/>
+  <path d="M207 285h112v125H207z" fill="none" stroke="#1f6f5b" stroke-width="18" stroke-linejoin="round"/>
+  <path d="M176 228h64v58h-64zM272 228h64v58h-64z" fill="#fff1cf" stroke="#b7791f" stroke-width="12" stroke-linejoin="round"/>
+  <circle cx="358" cy="360" r="78" fill="#ffffff" stroke="#1f6f5b" stroke-width="18"/>
+  <path d="m318 359 29 29 60-70" fill="none" stroke="#1f6f5b" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M113 248 256 126l143 122" fill="none" stroke="#174f42" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,22 @@
+{
+  "name": "宅建士 問題チェック",
+  "short_name": "宅建チェック",
+  "description": "宅建士問題集の自己評価と分析",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f7ef",
+  "theme_color": "#1f6f5b",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
