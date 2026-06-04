@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#1f6f5b">
+    <title>宅建士 分析</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="app-header">
+        <div>
+          <p class="eyebrow">宅建士問題集</p>
+          <h1>分析</h1>
+        </div>
+        <div class="header-actions">
+          <a class="nav-button" href="./index.html">問題</a>
+          <div class="save-state">自動保存</div>
+        </div>
+      </header>
+
+      <section class="summary" aria-label="全体の集計">
+        <div class="summary-card">
+          <span class="summary-label">評価済み</span>
+          <strong id="ratedTotal">0</strong>
+          <span id="totalCount">/ 332</span>
+        </div>
+        <div class="summary-card mark-good">
+          <span class="summary-label">○</span>
+          <strong id="goodTotal">0</strong>
+        </div>
+        <div class="summary-card mark-ok">
+          <span class="summary-label">△</span>
+          <strong id="okTotal">0</strong>
+        </div>
+        <div class="summary-card mark-bad">
+          <span class="summary-label">×</span>
+          <strong id="badTotal">0</strong>
+        </div>
+      </section>
+
+      <section class="analysis-panel" aria-labelledby="analysisTitle">
+        <div class="analysis-head">
+          <div>
+            <h2 id="analysisTitle">自動分析</h2>
+            <p id="analysisLead">まだ評価がありません</p>
+          </div>
+          <div class="review-score">
+            <span>復習候補</span>
+            <strong id="reviewTotal">0</strong>
+          </div>
+        </div>
+        <div class="analysis-grid" id="analysisGrid"></div>
+      </section>
+
+      <section class="dashboard" aria-labelledby="dashboardTitle">
+        <div class="dashboard-head">
+          <div>
+            <h2 id="dashboardTitle">ダッシュボード</h2>
+            <p id="dashboardLead">まだ評価がありません</p>
+          </div>
+        </div>
+        <div class="dashboard-grid" id="dashboardGrid"></div>
+        <div class="topic-insights" id="topicInsights" aria-label="分類別の復習候補"></div>
+      </section>
+    </main>
+
+    <template id="dashboardTemplate">
+      <article class="dashboard-card">
+        <div class="dashboard-card-head">
+          <strong class="dashboard-chapter"></strong>
+          <span class="dashboard-progress"></span>
+        </div>
+        <div class="stack-bar" aria-hidden="true">
+          <span class="bar-good"></span>
+          <span class="bar-ok"></span>
+          <span class="bar-bad"></span>
+        </div>
+        <div class="dashboard-counts"></div>
+      </article>
+    </template>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>
